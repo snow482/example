@@ -11,6 +11,7 @@
 - создать базу, миграции, сиды (см. команды ниже)
 - npm run dev
 
+---------------------------------------------------
 - "start": "node app.js",
 - "dev": "nodemon app.js --ext js, jsx, json",
 - "dev2": "node --watch app.js",
@@ -19,7 +20,6 @@
 - "dbm": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate",
 - "dbs": "npx sequelize db:seed:undo:all && npx sequelize db:seed:all",
 - "dbr": "npx sequelize db:create &&  npx sequelize db:migrate && npx sequelize db:seed:all"
-
 
 
 ---//---//---//---//---//---//---//---//---//---//---//---//---//---//---//---//---//---//---//---//---//---
