@@ -1,0 +1,58 @@
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color:rgb(241, 237, 237)
+}
+.book-update-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(24, 26, 182);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.book-item__image {
+  width: 200px;
+}
+
+.book-item__description {
+  padding: 15px;
+  word-break: break-all;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+.add-form__input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-evenly;
+}
+
+.update-form__input {
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+}
